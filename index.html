@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Potta+One&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Ashikur</title>
+  </head>
+
+  <body>
+    <!-- ========== Start Nav ========== -->
+    <nav id="nav" class="navbar navbar-expand-lg bg-body-tertiary p-0">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img src="./images/logo.png" alt="Company Logo"
+        /></a>
+        <button
+          class="navbar-toggler btn d-lg-none"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasRight"
+          aria-controls="offcanvasRight"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars-staggered"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">PROJECTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">BLOGS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- =========End Nav ========== -->
+
+    <!-- ========== Start offcanvas ========== -->
+    <div
+      class="offcanvas offcanvas-end"
+      tabindex="-1"
+      id="offcanvasRight"
+      aria-labelledby="offcanvasRightLabel"
+    >
+      <div id="header" class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasRightLabel">
+          ASHIKUR <span>MENU</span>
+        </h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div id="div" class="offcanvas-body">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Project</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Blog</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- ========== End offcanvas ========== -->
+
+    <!-- ========== Start Banner Section ========== -->
+    <section id="hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6 order-2 order-lg-0">
+            <h4>
+              Hello, I'm Arif Rahman
+              <span
+                ><iconify-icon
+                  icon="hugeicons:two-finger-05"
+                  width="24"
+                  height="24"
+                ></iconify-icon
+              ></span>
+            </h4>
+            <h2>UIUX and Graphic Designer</h2>
+            <p>
+              With 10 yevvars experience as a <br />
+              Professional Web developer.
+            </p>
+            <div class="icons">
+              <a href="#"
+                >Lets talk &nbsp;
+                <span
+                  ><iconify-icon
+                    icon="tabler:send"
+                    width="24"
+                    height="24"
+                  ></iconify-icon></span
+              ></a>
+              <a href="#"
+                >Download CV &nbsp;
+                <span
+                  ><iconify-icon
+                    icon="simple-line-icons:cloud-download"
+                    width="25"
+                    height="20"
+                  ></iconify-icon></span
+              ></a>
+            </div>
+
+            <div class="follow-container">
+              <span>Follow me :</span>
+              <a class="icon-container" href="#"
+                ><i class="fa-brands fa-dribbble"></i
+              ></a>
+              <a class="icon-container" href="#"
+                ><i class="fa-brands fa-behance"></i
+              ></a>
+              <a class="icon-container" href="#"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a class="icon-container" href="#"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-xl-6 order-1 order-lg-0">
+            <img class="img-fluid" src="./images/hero.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== End Banner Section ========== -->
+
+    <!-- ========== Start About ========== -->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6 order-1 order-lg-0">
+            <img class="img-fluid" src="./images/about.png" alt="about.png" />
+          </div>
+          <div id="about me" class="col-xl-6 order-0 order-lg-1 about-contains">
+            <h2>About Me</h2>
+            <p>
+              With 10 years experience as a professional Web developer, I have
+              acquired the skills and knowledge necessary to make your project a
+              success. I enjoy every step of the design process, from discussion
+              and collaboration.
+            </p>
+            <a href="#">See More</a>
+          </div>
+        </div>
+        <div class="about-footer">
+          <img src="./images/ellipse1.svg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== End About ========== -->
+
+    <!-- ========== Start Card ========== -->
+    <section id="card">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-4 add_cart">
+            <img src="./images/Frame1.png" alt="Card" />
+            <h3>Pixel Perfect</h3>
+            <p>
+              Most common methods for designing websites that work well on
+              desktop is responsive and adaptive design.
+            </p>
+          </div>
+          <div class="col-xl-4 add_cart">
+            <img src="./images/frame2.png" alt="card" />
+            <h3>Pixel Perfect</h3>
+            <p>
+              Most common methods for designing websites that work well on
+              desktop is responsive and adaptive design.
+            </p>
+          </div>
+
+          <div class="col-xl-4 add_cart">
+            <img src="./images/frame3.png" alt="card" />
+            <h3>Pixel Perfect</h3>
+            <p>
+              Most common methods for designing websites that work well on
+              desktop is responsive and adaptive design.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== End Card ========== -->
+
+    <!-- ========== Start branding ========== -->
+    <section id="branding">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6 order-2 order-lg-0">
+            <img class="img-fluid" src="./images/branding.png" alt="" />
+          </div>
+          <div class="col-xl-6 branding_contains order-1 order-lg-0">
+            <h3>Branding</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
+              ornare id faucibus nunc fusce tellus scelerisque adipiscing lorem.
+              Mollis tortor, mattis urna imperdiet.
+            </p>
+            <a href="#">See Project</a>
+            <svg
+              class="vactor-img"
+              width="70"
+              height="77"
+              viewBox="0 0 70 77"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0.000375431 74.0017L4.79372 70.9444L5.18744 76.7123L0.000375431 74.0017ZM46.5327 13.6604L46.1828 13.2917L46.5327 13.6604ZM4.3907 73.353C6.97567 72.9076 9.8366 71.8711 12.0165 70.1365C14.185 68.4111 15.6666 66.0101 15.5773 62.7922L16.5773 62.798C16.6769 66.3866 15.0066 69.0559 12.6556 70.9266C10.316 72.7882 7.28962 73.8736 4.59262 74.3383L4.3907 73.353ZM15.5773 62.7922C15.4256 57.3267 12.2267 53.5106 10.491 50.5501C10.0643 49.8223 9.71332 49.1201 9.55337 48.4563C9.38944 47.7761 9.42029 47.1082 9.79069 46.4971C10.1503 45.9039 10.7907 45.4304 11.7013 45.0331C12.6155 44.6342 13.8494 44.2917 15.4611 43.9898L15.6771 44.9725C14.0984 45.2683 12.9457 45.5942 12.1271 45.9514C11.3049 46.3102 10.8664 46.6804 10.651 47.0358C10.4464 47.3732 10.4063 47.7586 10.5255 48.2533C10.6487 48.7645 10.935 49.359 11.3499 50.0666C12.9804 52.8478 16.4162 56.9933 16.5773 62.798L15.5773 62.7922ZM15.4611 43.9898C21.8668 42.7897 27.9259 42.642 32.3932 42.1892C34.6494 41.9606 36.4798 41.657 37.798 41.1263C39.1028 40.6009 39.8225 39.8899 40.0235 38.8788L41.005 39.105C40.7166 40.5559 39.6686 41.4633 38.1984 42.0553C36.7416 42.6418 34.7896 42.9545 32.527 43.1838C27.9567 43.647 22.0327 43.7818 15.6771 44.9725L15.4611 43.9898ZM40.0235 38.8788C40.2309 37.8354 39.7941 36.7562 39.1121 35.3367C38.4511 33.9608 37.5975 32.3293 37.249 30.354C36.5391 26.3305 37.9356 21.0757 46.1828 13.2917L46.8825 14.0292C38.7322 21.7218 37.609 26.6706 38.234 30.2126C38.5529 32.02 39.3304 33.5117 40.0112 34.9289C40.6712 36.3025 41.287 37.6863 41.005 39.105L40.0235 38.8788ZM46.1828 13.2917C48.9013 10.7259 51.3039 8.27463 54.6543 6.039C58.0139 3.79728 62.3141 1.77807 68.8549 0.017083L69.1451 0.982918C62.6859 2.72193 58.4861 4.70269 55.2289 6.87608C51.9626 9.05555 49.6316 11.4345 46.8825 14.0292L46.1828 13.2917Z"
+                fill="black"
+              />
+            </svg>
+          </div>
+        </div>
+        <div class="ellips">
+          <img src="./images/ellipse2.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- ========== End branding ========== -->
+
+    <!-- ========== Start help ========== -->
+    <section id="help">
+      <div class="container">
+        <div class="row justify-content-lg-between">
+          <div class="col-xl-4 order-2 order-lg-0 project_first">
+            <div class="row align-items-center">
+              <div class="col-2 laptop">
+                <span>
+                  <iconify-icon
+                    icon="mingcute:laptop-line"
+                    width="24"
+                    height="24"
+                  ></iconify-icon>
+                </span>
+              </div>
+              <div class="col ps-2">
+                <h3>Website Design</h3>
+                <p>712 project</p>
+              </div>
+            </div>
+
+            <div class="row align-items-center">
+              <div class="col-2 mobile">
+                <span>
+                  <iconify-icon
+                    icon="bytesize:mobile"
+                    width="32"
+                    height="32"
+                  ></iconify-icon>
+                </span>
+              </div>
+              <div class="col ps-2">
+                <h3>Mobile app Design</h3>
+                <p>812 project</p>
+              </div>
+            </div>
+
+            <div class="row align-items-center">
+              <div class="col-2 bnb">
+                <span>
+                  <iconify-icon
+                    icon="hugeicons:airbnb"
+                    width="24"
+                    height="24"
+                  ></iconify-icon>
+                </span>
+              </div>
+              <div class="col ps-2">
+                <h3>Brand identy</h3>
+                <p>712 project</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-5 order-1 order-lg-0 project_second">
+            <h3>What Do I Help?</h3>
+            <p>
+              I will help you with finding a solution and solve your problems.
+              We use process desigv n to create digital productes. Beside that
+              also help their business.
+            </p>
+
+            <div class="row">
+              <div class="col-6">
+                <h3>250+</h3>
+                <p>Project Completed</p>
+              </div>
+
+              <div class="col-6">
+                <h3>150+</h3>
+                <p>Happy Clients</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========== End help ========== -->
+    <!-- ========== Start WORK ========== -->
+    <section id="work">
+      <div class="container">
+        <div class="heading">
+          <h4>My Work Experience</h4>
+        </div>
+        <div class="parent">
+          <div class="row justify-content-between py-4">
+            <div class="col-xl-3 title">
+              <h4>Self Employ, India</h4>
+              <p>Sep 2019 - Aug 2020</p>
+              <div class="timeline"></div>
+            </div>
+            <div class="col-xl-6 details">
+              <h4>Visual Designer</h4>
+              <p>
+                A Visual designe design for a varaity of platforms which may
+                includes internat and internet sites, games, movies and wareable.
+                In short, they create the concept.
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="parent1">
+          <div class="row justify-content-between py-4">
+            <div class="col-xl-3 title">
+              <h4>New Man Service</h4>
+              <p>Sep 2019 - Aug 2020</p>
+              <div class="timeline"></div>
+            </div>
+            <div class="col-xl-6 details">
+              <h4>UI/UX Designer</h4>
+              <p>
+                A Visual designe design for a varaity of platforms which may
+                includes internat and internet sites, games, movies and wareable.
+                In short, they create the concept.
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="parent2">
+          <div class="row justify-content-between py-4">
+            <div class="col-xl-3 title">
+              <h4>Global Solution</h4>
+              <p>Sep 2019 - Aug 2020</p>
+              <div class="timeline"></div>
+            </div>
+            <div class="col-xl-6 details">
+              <h4>Sr. Product Designer</h4>
+              <p>
+                A Visual designe design for a varaity of platforms which may
+                includes internat and internet sites, games, movies and wareable.
+                In short, they create the concept.
+              </p>
+            </div>
+          </div>        
+        </div>
+
+        
+
+      </div>
+    </section>
+
+    <!-- ========== End WORK ========== -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://code.iconify.design/iconify-icon/2.3.0/iconify-icon.min.js"></script>
+  </body>
+</html>
