@@ -48,123 +48,177 @@
     
     /***** End About *****/
 
-/***** Card *****/ 
-#card .add_cart{
+    /***** Card *****/ 
+    #card .add_cart{
     width: 90%;
     margin-bottom: 20px;
-}
+    }
 
+
+    
 /***** End Card *****/
 
-/***** Branding *****/ 
+    
+    
+    /***** Branding *****/ 
 
-#branding .row {
-    position: relative;
+    
+    
+    #branding .row {
+    
+        position: relative;
+    
 }
 
+
+    
 #branding .img-fluid {
-    position: unset;
+    
+        position: unset;
+    
 }
 
+
+    
 #branding .branding_contains {
-    padding: 30px;
+    
+        padding: 30px;
+    
 }
+    
 #branding .branding_contains p br {
-    display: none;
-}
-#branding .container {
-    position: relative;
+    
+        display: none;
+    
 }
 
+#branding .container {
+    
+        position: relative;
+    
+}
+
+
+    
 /***** End Branding *****/
 
+    
+    
 /***** help *****/ 
-#help {
+    
+ #help {
+    
     padding: 50px 0;
-}
-
-#help .container {
+    
+    }
+    
+ #help .container {
+    
     padding: 0 30px;
-}
-#help .project_second h3 {
+    }
+ #help .project_second h3 {
     text-align: center;
 
-}
+    }
 
 #help .project_second p {
     text-align: center;
-}
+    }
 
-#help .row .col-6 h3 {
+ #help .row .col-6 h3 {
     text-align: center;
-}
+    }
 
 #help .row .col-6 p {
     text-align: center;
+    }
+
+    /***** help End *****/ 
+
+
+    /***** Start work *****/
+    #work .title::before {
+        left: 10px;
+        top: -1px;
+    }
+
+    #work .title::after {
+        left: -1px;
+        top: -12px;
+    }
+    #work .row .title, #work .row .details {
+        padding-left: 50px;
+    }
+
+    #work .details::before{
+        content: '';
+        position: absolute;
+        height: 87%;
+        width: 2px;
+        border: 2px dashed;
+        color: #7a7a;
+        left: 7px;
+        top: 58px;
+    }
+    #work .parent {
+        position: relative;
+    }
+    #work .parent::before {
+        content: '';
+        position: absolute;
+        height: 87%;
+        width: 2px;
+        border: ;
+        color: #7a7a;
+        left: 7px;
+        top: 55px;
+    }
+    #work .parent1 {
+        position: relative;
+    #work .parent1::before {
+        content: '';
+        position: absolute;
+        height: 87%;
+        width: 2px;
+        border: 2px dashed;
+        color: #7a7a;
+        left: 7px;
+        top: 55px;
+    }
+    }
+    #work .parent2 {
+        position: relative;
+    #work .parent2::before {
+        content: '';
+        position: absolute;
+        height: 87%;
+        width: 2px;
+        border: 2px dashed;
+        color: #7a7a;
+        left: 7px;
+        top: 55px;
+    } 
+
+    }
+/***** End work *****/
+
+/***** service *****/ 
+#service .row {
+    margin: auto;
 }
 
-#work .title::before {
-    left: 0;
-    top: -1px;
+#service .service1 {
+    margin-top: 20px;
 }
 
-#work .title::after {
-    left: -11px;
-    top: -12px;
-}
-#work .row .title, #work .row .details {
-    padding-left: 50px;
+#service .service2 {
+    margin-top: 20px;
 }
 
-#work .details::before{
-    content: '';
-    position: absolute;
-    height: 87%;
-    width: 2px;
-    border: 2px dashed;
-    color: #7a7a;
-    left: -2px;
-    top: 55px;
-}
-#work .parent {
-    position: relative;
-}
-#work .parent::before {
-    content: '';
-    position: absolute;
-    height: 87%;
-    width: 2px;
-    border: 2px dashed;
-    color: #7a7a;
-    left: -2px;
-    top: 55px;
-}
-#work .parent1 {
-    position: relative;
-#work .parent1::before {
-    content: '';
-    position: absolute;
-    height: 87%;
-    width: 2px;
-    border: 2px dashed;
-    color: #7a7a;
-    left: -2px;
-    top: 55px;
-}
-#work .parent2 {
-    position: relative;
-#work .parent2::before {
-    content: '';
-    position: absolute;
-    height: 87%;
-    width: 2px;
-    border: 2px dashed;
-    color: #7a7a;
-    left: -2px;
-    top: 55px;
-}
 
-/***** End help *****/
+
+/***** End service *****/
+
 
 
 
